@@ -1,0 +1,24 @@
+GET  http://localhost:3000/posts
+
+###
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "Second attempt title",
+    "description": "Second attempt description"
+}
+
+###
+
+DELETE http://localhost:3000/posts/5fc660011640a23b30ad5c4f
+
+###
+
+PATCH http://localhost:3000/posts/5fc65d010edc4b6c40ee0376
+Content-Type: application/json
+
+{
+    "title": "Updated title"
+}
